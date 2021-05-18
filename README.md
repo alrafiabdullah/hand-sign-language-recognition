@@ -27,9 +27,9 @@
 
 > From 2:
 
-- They took the outputs of Softmax and Max Pooling later for their architecture.
+- They took the outputs of Softmax and Max Pooling layer for their architecture.
 
-  - I took the Logarithmic Softmax as output in my model. 16%-96%
+  - I took the Logarithmic Softmax as output in my model. (16%-96%)
 
 ##
 
@@ -50,7 +50,7 @@ My model class Net has these layers:
 - 2 Batch Normalization
 - 2 Fully Connected layer
 
-> Dataset - Sign Lanuage MNIST
+> Dataset - Sign Lanuage MNIST [Link](https://www.kaggle.com/datamunge/sign-language-mnist)
 
 ## Output
 
