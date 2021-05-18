@@ -39,6 +39,10 @@
 
   - My image dataset doesn't have this limitation
 
+- They used Cross Entropy loss function
+
+  - I used Negative Log Likelihood loss function
+
 ##
 
 ## Model
@@ -49,6 +53,7 @@ My model class Net has these layers:
 - 2 2DMaxPool
 - 2 2D Batch Normalization
 - 2 Fully Connected layer
+- NLLLOSS (Negative Log Likelihood Loss)
 
 > Dataset - Sign Lanuage MNIST [Link](https://www.kaggle.com/datamunge/sign-language-mnist)
 
@@ -57,9 +62,18 @@ My model class Net has these layers:
 
 ## Output
 
+> NLLLOSS
+
 - Total Epoch: 7
 - Log Interval: 27455
 - Average Loss: 0.0373
+- Accuracy: 96%
+
+> Cross Entropy
+
+- Total Epoch: 7
+- Log Interval: 27455
+- Average Loss: 0.0375
 - Accuracy: 96%
 
 ##
