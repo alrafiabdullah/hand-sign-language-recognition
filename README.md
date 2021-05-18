@@ -47,10 +47,13 @@ My model class Net has these layers:
 
 - 2 2DCNN
 - 2 2DMaxPool
-- 2 Batch Normalization
+- 2 2D Batch Normalization
 - 2 Fully Connected layer
 
 > Dataset - Sign Lanuage MNIST [Link](https://www.kaggle.com/datamunge/sign-language-mnist)
+
+- Train: 27455
+- Test: 7172
 
 ## Output
 
