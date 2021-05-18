@@ -40,3 +40,23 @@
   - My image dataset doesn't have this limitation
 
 ##
+
+## Model
+
+My model class Net has these layers:
+
+- 2 2DCNN
+- 2 2DMaxPool
+- 2 Batch Normalization
+- 2 Fully Connected layer
+
+> Dataset - Sign Lanuage MNIST
+
+## Output
+
+- Total Epoch: 7
+- Log Interval: 27455
+- Average Loss: 0.0373
+- Accuracy: 96%
+
+##
