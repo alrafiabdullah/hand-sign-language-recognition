@@ -47,12 +47,11 @@
 
 ## Model
 
-My model class Net has these layers:
-
 - 2 2DCNN
 - 2 2DMaxPool
 - 2 2D Batch Normalization
 - 2 Fully Connected layer
+- SGD Optimizer (Stochastic Gradient Descent)
 - NLLLOSS (Negative Log Likelihood Loss)
 
 > Dataset - Sign Lanuage MNIST [Link](https://www.kaggle.com/datamunge/sign-language-mnist)
