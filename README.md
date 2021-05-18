@@ -32,3 +32,11 @@
   - I took the Logarithmic Softmax as output in my model. 16%-96%
 
 ##
+
+> From 3:
+
+- Their model works well for videos with constant background
+
+  - My image dataset doesn't have this limitation
+
+##
